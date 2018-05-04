@@ -1,4 +1,7 @@
-#modalButton {
+.buttonStyle {
+    font-size: 30px;
+    padding: 16px 32px;
+    margin: 4px 2px;
     background-color: #ddd;
     border: none;
     color: black;
@@ -9,8 +12,7 @@
     transition: 0.6s;
     font-family: Arial, Helvetica, sans-serif
 }
-
-#modalButton:hover {
+.buttonStyle:hover {
     background-color: #6a0b96;
     color: white;
 }

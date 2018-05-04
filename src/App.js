@@ -7,9 +7,6 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
-import ReallySmoothScroll from "really-smooth-scroll";
-
-ReallySmoothScroll.shim();
 // import Jumbotron from "./components/Jumbotron";
 
 class App extends Component {
@@ -30,7 +27,6 @@ class App extends Component {
         <Divs>
           <Contact/>
         </Divs>
-        <div className="row-fluid notMuch"/>
         <Footer/>
       </div>
     );

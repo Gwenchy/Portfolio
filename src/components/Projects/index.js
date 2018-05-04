@@ -15,7 +15,7 @@ const Projects = (props) => {
           <CardTitle>HTML/Javascript</CardTitle>
           <CardSubtitle>Trivia Game</CardSubtitle>
           <CardText>This was a small school project I did that shows my love for coding and anime.</CardText>
-          <Button>Click here to see app</Button>
+          <Button href="https://gwenchy.github.io/TriviaGame/">Click here to see app</Button>
         </CardBody>
       </Card>
       <Card>
@@ -24,7 +24,7 @@ const Projects = (props) => {
           <CardTitle>MongoDB</CardTitle>
           <CardSubtitle>Nyscraper</CardSubtitle>
           <CardText>My first try with React.</CardText>
-          <Button src="https://nyscraperapp.herokuapp.com/">Visit App</Button>
+          <Button href="https://nyscraperapp.herokuapp.com/">Visit App</Button>
         </CardBody>
       </Card>
       <Card>
@@ -33,7 +33,7 @@ const Projects = (props) => {
           <CardTitle>React</CardTitle>
           <CardSubtitle>Barrier Breaker</CardSubtitle>
           <CardText>This was my final project for the UCF code camp.</CardText>
-          <Button src="https://fast-mesa-44518.herokuapp.com/">Check it out</Button>
+          <Button href="https://fast-mesa-44518.herokuapp.com/">Check it out</Button>
         </CardBody>
       </Card>
     </CardDeck>

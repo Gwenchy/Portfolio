@@ -12,6 +12,9 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 import "./style.css";
+import ReallySmoothScroll from "really-smooth-scroll";
+
+ReallySmoothScroll.shim();
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -39,6 +42,9 @@ export default class Example extends React.Component {
 				</NavItem>
 				<NavItem>
 				<NavLink href="#Projects">My Projects</NavLink>
+				</NavItem>
+				<NavItem>
+				<NavLink href="#Projects">Contact me</NavLink>
 				</NavItem>
 				<UncontrolledDropdown nav inNavbar>
 				<DropdownToggle nav caret>

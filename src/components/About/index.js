@@ -11,7 +11,7 @@ const About = (props) => {
 				<div className="col-md">
 					<h1>Full Stack Web Developer</h1>
 				</div>
-				<div className="col-md">
+				<div className="col-md-8">
 					<p>
 						My name is Edgardo Mendez and I am a Web Developer based in Florida who specialize in HTML, 
 						CSS, Javascript, Node.js and React.js to mention a few. I am also a father of two very handsome boys
