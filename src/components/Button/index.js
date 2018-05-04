@@ -7,7 +7,7 @@ import "./style.css";
 const About = (props) => {
 	return(
 		<div>
-      <button className="buttonStyle" color="primary" size="lg" href={props.link}>{props.children}</button>
+      <a className="buttonStyle" color="primary" size="lg" href={props.link}>{props.children}</a>
 		</div>
 	);
 }
