@@ -5,10 +5,10 @@ import "./style.css";
 
 const Projects = (props) => {
   return (
-    <div className="projects">
+    <div className="projects" id="Projects">
     <h1>My Projects</h1>
     <p>The Projects I have at this moments are applications I did in my code camp. I am working in new applications at this moment to gain experience and be more accustom to coding on a daily basis.</p>
-    <CardDeck id="Projects">
+    <CardDeck>
       <Card>
         <CardImg top width="100%" src="https://lh3.googleusercontent.com/dg0nFnuSGisrGQvnTUa6OJ26bLKQWpJWpslEOnJ-j1SjtniQuD3wmUxZ2zW7hRFpRGbBQySx_-mBYeFx97E8egtL21MJ7z3sy3Pyj2jOWq3tXrOghDTJTbNEuQFI-hldVc9cYVVVx38ANwHoiwswkw-ajRyrg44Mf8ujYXyjB230-Ykm_oTDgdk-RvvIRhTUzPJSivSVHM-oEWwWAnE_Ex9NxLXVN88CDGD7CeyG9ptXqL4XByrjgaVrA12UQY9kMu1dnkkv1uBM3Vta4RLg890EoEYHW5uDHpGVdSGvuVAAOk9-tRazIOicWf9poxPGwxWrF5A258dGmWGdecrZq33TDEL1EXKt3DjoQecF8zA0eH5h9A7uXkwFFzBQEtcikeRo_PbCRJPyFN9VIeKIvkhjrR3l2Ti4ov-yS57SS2KGOu1df8H4x7e-Saz-PUz2yCH4-Y4W5bcPXOrzg3gsA7wc8J7ilBEAHldQqkyZJAiE4z9XMks6dsKTAz-UGTQ7IH9QeXEC9YAcEihn_g_tDn5UYAKjLYFEthkf68W9GNsCaBSKsuAKd3iF3ZbjkPxegnQz46aVSZBsTeGGYIKjDDSL5QucrajzIY9dkNnv=w2728-h1524-no" alt="Trivia" />
         <CardBody>
